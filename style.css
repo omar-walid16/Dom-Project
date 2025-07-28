@@ -1,0 +1,38 @@
+*
+{
+    font-family: Segoe UI light;
+}
+
+.item img
+{
+    cursor: pointer;
+}
+
+.item-caption
+{
+    width: 80%;
+    bottom: 10%;
+    left: 10%;
+    background-color: white;
+    cursor: pointer;
+}
+.lightbox
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lightboxitem
+{
+    width: 40%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+.lightboxitem i
+{
+    cursor: pointer;
+}
